@@ -51,15 +51,15 @@
       [x] - id: Date.now()
       [x] - completed: false
     [x] - add new add fxn to TodoListForm
-  [] - `<TodoList >`
-    [] - none
-  [] - `<Todo />` 
-    [] - none
-  [] - `<TodoListForm >`
-    [] - constructor
-      [] - state
-      [] - (see notes for full list)
-      [] - add and clear buttons
+  [x] - `<TodoList >`
+    [x] - none
+  [x] - `<Todo />` 
+    [x] - none
+  [x] - `<TodoListForm >`
+    [x] - constructor
+      [x] - state
+      [x] - (see notes for full list)
+      [x] - add and clear buttons
 [] - **Clear** Completed Functionality
   [] - `<App />`
       [] - create fxn
