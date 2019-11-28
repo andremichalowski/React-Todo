@@ -11,14 +11,14 @@
 
 [] - **Base Components/Functionalit** for the to do list
   [] - `<App />`
-    [] - imports
-    [] - add H1 title/heading
-    [] - add test 'todo' array
-    [] - add state
-      [] - add state information
-    [] - render
-      [] - create class component for TodoList
-      [] - add (export) state to TodoList
+    [x] - imports
+    [x] - add H1 title/heading
+    [x] - add test 'todo' array
+    [x] - add state
+      [x] - add state information
+    [x] - render
+      [x] - create class component for TodoList
+      [x] - add (export) state to TodoList
   [] - `<TodoList >`
     [] - imports
     [] - create function
