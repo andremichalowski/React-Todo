@@ -9,7 +9,7 @@
 [x] - Play EDM music
   [x] - https://soundcloud.com/user2727940/deadmau5-strobe
 
-[] - **Base Components/Functionalit** for the to do list
+[] - **Base Components/Functionality** for the to do list
   [] - `<App />`
     [x] - imports
     [x] - add H1 title/heading
@@ -26,10 +26,10 @@
         **[x] - add >> task, id, completed << 
       [x] - return TodoItem
       [x] - return button
-  [] - `<Todo />` 
-    [] - imports 
-    [] - create function 
-      [] - return 
+  [x] - `<Todo />` 
+    [x] - imports 
+    [x] - create function 
+      [x] - return 
 
 [] - **Completed** Todo Functionality
   [] - `<App />`
