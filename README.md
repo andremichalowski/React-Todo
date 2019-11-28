@@ -35,8 +35,8 @@
   [x] - `<App />`
     [x] - toggleCompleted fxn
     [x] - add (export) toggle completed class component to TodoList
-  [] - `<TodoList >`
-    [] - update "completed" CC to include toggle fxn
+  [x] - `<TodoList >`
+    [x] - update "completed" CC to include toggle fxn
   [] - `<Todo />` 
     [] - if statement for completed
     [] - create handler for click to toggle for todo item.id
