@@ -25,11 +25,30 @@ class App extends React.Component {
     tasks: data
   };
   
+  toggleCompleted = itemId => {
+    console.log("toggleCompleted: ", itemId);
+
+    this.setState({
+      tasks: this.state.tasks.map(item => {
+        if (item.id ===itemId) {
+          return {
+            ...item,
+            completed: !item.completed
+          };
+        }
+        return item;
+      })
+    });
+  };
+
   render() {
     return (
       <div>
         <h2>DAILY TO-DO:</h2>
-        <TodoList tasks={this.state.tasks} />;
+        <TodoList 
+          tasks={this.state.tasks}
+          toggleCompleted={this.toggleCompleted}
+        />;
       </div>
     );
   }

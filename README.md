@@ -31,10 +31,10 @@
     [x] - create function 
       [x] - return 
 
-[] - **Completed** Todo Functionality
-  [] - `<App />`
-    [] - toggleCompleted fxn
-    [] - add (export) toggle completed class component to TodoList
+[x] - **ToggleCompleted** Todo Functionality
+  [x] - `<App />`
+    [x] - toggleCompleted fxn
+    [x] - add (export) toggle completed class component to TodoList
   [] - `<TodoList >`
     [] - update "completed" CC to include toggle fxn
   [] - `<Todo />` 
