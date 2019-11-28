@@ -37,10 +37,10 @@
     [x] - add (export) toggle completed class component to TodoList
   [x] - `<TodoList >`
     [x] - update "completed" CC to include toggle fxn
-  [] - `<Todo />` 
-    [] - if statement for completed
-    [] - create handler for click to toggle for todo item.id
-    [] - add onclick referencing handler add classname w/ reference to if statement
+  [x] - `<Todo />` 
+    [x] - if statement for completed
+    [x] - create handler for click to toggle for todo item.id
+    [x] - add onclick referencing handler add classname w/ reference to if statement
 [] - **Add** Todo Function Functionality
   [] - `<App />`
     [] - create function
@@ -73,6 +73,7 @@
     [] - none
 [] - Other
   [] - move handler functions to App.js
+  []  - styling
 
 
 

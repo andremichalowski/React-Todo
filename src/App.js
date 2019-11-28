@@ -41,6 +41,21 @@ class App extends React.Component {
     });
   };
 
+  addItem = taskName => {
+    console.log("add task: ", taskName);
+
+    this.setState({
+      tasks: [
+        ...this.state.tasks,
+        {
+          task: taskName,
+          id: Date.now(),
+          completed: false
+        }
+      ]
+    });
+  };
+
   render() {
     return (
       <div>
@@ -48,7 +63,7 @@ class App extends React.Component {
         <TodoList 
           tasks={this.state.tasks}
           toggleCompleted={this.toggleCompleted}
-        />;
+        />
       </div>
     );
   }
