@@ -14,7 +14,7 @@ const TodoList = props => {
                 />
             ))}
             <button className="button" onClick={props.clearCompleted}>
-                Clear Purchased
+                Clear Completed
             </button>
         </div>
         
