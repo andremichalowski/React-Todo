@@ -69,11 +69,11 @@
       [x] - add CC to todoList
   [x] - `<TodoList >`
     [x] - add clearCompleted with onClick to button 
-  [] - `<Todo />`
-    [] - none
-[] - Other
-  [] - move handler functions to App.js
-  []  - styling
+  [x] - `<Todo />`
+    [x] - none
+[x] - Other
+  [x] - move handler functions to App.js
+  [x]  - styling
 
 
 
