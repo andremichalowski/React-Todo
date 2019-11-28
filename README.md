@@ -61,12 +61,12 @@
       [x] - (see notes for full list)
       [x] - add and clear buttons
 [] - **Clear** Completed Functionality
-  [] - `<App />`
-      [] - create fxn
-        [] - add state
-        [] - .filter the todo's from the original state
-        [] - write expression returning everything not equal to completed using "!"
-      [] - add CC to todoList
+  [x] - `<App />`
+      [x] - create fxn
+        [x] - add state
+        [x] - .filter the todo's from the original state
+        [x] - write expression returning everything not equal to completed using "!"
+      [x] - add CC to todoList
   [] - `<TodoList >`
     [] - add clearCompleted with onClick to button 
   [] - `<Todo />`

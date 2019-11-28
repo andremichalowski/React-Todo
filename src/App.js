@@ -56,6 +56,15 @@ class App extends React.Component {
     });
   };
 
+  clearCompleted = itemId => {
+    console.log("clearCompleted");
+    this.setState({
+      tasks: this.state.tasks.filter(item => {
+        return !item.completed;
+      })
+    })
+  }
+
   render() {
     return (
       <div>
@@ -64,6 +73,7 @@ class App extends React.Component {
         <TodoList 
           tasks={this.state.tasks}
           toggleCompleted={this.toggleCompleted}
+          clearCompleted={this.clearCompleted}
         />
       </div>
     );
