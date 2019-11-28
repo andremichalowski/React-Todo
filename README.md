@@ -1,76 +1,85 @@
-# React-Todo
+#### Instructions (Updated)
 
-We're going to practice building a stateful class component with this project. Even though hooks are gaining popularity among react developers, class components are going to be around for a long time. It's imperative that you get use to class components, and feel comfortable working with class components since you'll most likely need to work with them if you are hired to work on a React app.
+[x] - Review notes for:
+  [x] - Class Constructors
+  [x] - Props
+  [x] - Event Handlers
+  [x] - Recorded Lecture
 
-## Initializing the project.
+[x] - Play EDM music
+  [x] - https://soundcloud.com/user2727940/deadmau5-strobe
 
-- `Fork and clone` this project and cd into your cloned version.
-- `npm install` or `yarn install` will pull in all the node_modules you need.
-- `npm start` or `yarn start` will start a development server on your `http://localhost:3000`.
-  - If npm or yarn asks you to select different port with some error message, just confirm and it will pull it up on port 3001. This simply means you have a development server up and running on that port already.
+[] - **Base Components/Functionalit** for the to do list
+  [] - `<App />`
+    [] - imports
+    [] - add H1 title/heading
+    [] - add test 'todo' array
+    [] - add state
+      [] - add state information
+    [] - render
+      [] - create class component for TodoList
+      [] - add (export) state to TodoList
+  [] - `<TodoList >`
+    [] - imports
+    [] - create function
+      [] - map the original todo Array
+        **[] - add >> task, id, completed << 
+      [] - return TodoItem
+      [] - return button
+  [] - `<Todo />` 
+    [] - imports 
+    [] - create function 
+      [] - return 
 
-## Instructions
-
-- Your job is to write the components to complete the Todo List application.
-- Your todo list should be fully functional and you should design it however you'd like. Feel free to get creative here. I have supplied a gif for you to see what the MVP functionality is.
-
-![Todo App MVP](todo.gif)
-
-- Your todo data should be an array of objects that look a lot like this:
-
-```js
-[
-  {
-    task: 'Organize Garage',
-    id: 1528817077286,
-    completed: false
-  },
-  {
-    task: 'Bake Cookies',
-    id: 1528817084358,
-    completed: false
-  }
-];
-```
-
-- The `task` field is the todo title that will be shown to the user.
-- The `completed` field should default to `false` and will be the field that we toggle when we complete a todo.
-- The `id` field is a unique `Time Stamp` that will be assigned by `Date.now()`.
-
-#### Instructions
-
-- **Don't focus on styling yet**. We want you to worry about function over form today.
-- Your todo list should display:
-  [] - a list of todos
-  [] - an input field
-  [] - a submit button
-  [] - a clear all button
-- `<App />` 
-  - will hold all the data needed 
-  - container for your Todo Components.
-  - holds all `handler` functions
-- `<TodoList />` 
-  - receives your Todos array, iterates over the list generating a new `<Todo />` for each element in the array.
-- `<Todo />` 
-  - component that takes in the `todo` data and displays the task to the screen.
-- `<TodoForm>` 
-  - will hold your input field and your `Add Todo` and `Clear Completed` buttons.
-  - Your input field should take in user input, and allow a user to press `Enter` or click on the `Submit Button` to add a todo to your list.
-  - Once a todo is submitted, the Todo List should re-render and show the added todo.
-
----
-
-- Add the functionality to toggle your todo's completed flag from `false` to `true`.
-  - Once a todo is completed, be sure to demonstrate to the user that the todo is completed by adding a line-through style property if the completed flag is true.
-- Add the ability to remove any todos that you have completed. `.filter` will be your best friend here. When a user clicks on the `Clear Completed` button call your handler function that will filter out any todos that have the completed flag toggled to `true`.
-- **Now is the time to style** Take your time to make this an app that you can be proud of.
+[] - **Completed** Todo Functionality
+  [] - `<App />`
+    [] - toggleCompleted fxn
+    [] - add (export) toggle completed class component to TodoList
+  [] - `<TodoList >`
+    [] - update "completed" CC to include toggle fxn
+  [] - `<Todo />` 
+    [] - if statement for completed
+    [] - create handler for click to toggle for todo item.id
+    [] - add onclick referencing handler add classname w/ reference to if statement
+[] - **Add** Todo Function Functionality
+  [] - `<App />`
+    [] - create function
+    [] - console.log
+    [] - setState
+      [] - spread operator
+      [] - task: itemName
+      [] - id: Date.now()
+      [] - completed: false
+    [] - add new add fxn to TodoListForm
+  [] - `<TodoList >`
+    [] - none
+  [] - `<Todo />` 
+    [] - none
+  [] - `<TodoListForm >`
+    [] - constructor
+      [] - state
+      [] - (see notes for full list)
+      [] - add and clear buttons
+[] - **Clear** Completed Functionality
+  [] - `<App />`
+      [] - create fxn
+        [] - add state
+        [] - .filter the todo's from the original state
+        [] - write expression returning everything not equal to completed using "!"
+      [] - add CC to todoList
+  [] - `<TodoList >`
+    [] - add clearCompleted with onClick to button 
+  [] - `<Todo />`
+    [] - none
+[] - Other
+  [] - move handler functions to App.js
 
 
 
 #### Stretch Problems
 
-- **Persist your data** in `window.localStorage()` hint: you may have to pass your data to a stringifier to get it to live inside the `localStorage()` of the browser. This will cause it to persist past the page refresh.
+[] - **Persist your data** in `window.localStorage()` hint: you may have to pass your data to a stringifier to get it to live inside the `localStorage()` of the browser. This will cause it to persist past the page refresh.
 
-- **Search Functionality** Add a input bar that allows you to search through your tasks and only show the ones that match the search input.
+[] - **Search Functionality** Add a input bar that allows you to search through your tasks and only show the ones that match the search input.
 
-- **Hosting** Create a [Netlify Account](https://www.netlify.com/) and follow the tutorial on how to host your shiny new todo app on the world wide web.
+[] - **Hosting** Create a [Netlify Account](https://www.netlify.com/) and follow the tutorial on how to host your shiny new todo app on the world wide web.
