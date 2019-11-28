@@ -19,13 +19,13 @@
     [x] - render
       [x] - create class component for TodoList
       [x] - add (export) state to TodoList
-  [] - `<TodoList >`
-    [] - imports
-    [] - create function
-      [] - map the original todo Array
-        **[] - add >> task, id, completed << 
-      [] - return TodoItem
-      [] - return button
+  [x] - `<TodoList >`
+    [x] - imports
+    [x] - create function
+      [x] - map the original todo Array
+        **[x] - add >> task, id, completed << 
+      [x] - return TodoItem
+      [x] - return button
   [] - `<Todo />` 
     [] - imports 
     [] - create function 
