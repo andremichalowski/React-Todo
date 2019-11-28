@@ -30,7 +30,7 @@ class App extends React.Component {
 
     this.setState({
       tasks: this.state.tasks.map(item => {
-        if (item.id ===itemId) {
+        if (item.id === itemId) {
           return {
             ...item,
             completed: !item.completed
@@ -41,7 +41,7 @@ class App extends React.Component {
     });
   };
 
-  addItem = taskName => {
+  addTask = taskName => {
     console.log("add task: ", taskName);
 
     this.setState({
@@ -60,6 +60,7 @@ class App extends React.Component {
     return (
       <div>
         <h2>DAILY TO-DO:</h2>
+        <TodoForm addTask={this.addTask}/>
         <TodoList 
           tasks={this.state.tasks}
           toggleCompleted={this.toggleCompleted}

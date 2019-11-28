@@ -41,16 +41,16 @@
     [x] - if statement for completed
     [x] - create handler for click to toggle for todo item.id
     [x] - add onclick referencing handler add classname w/ reference to if statement
-[] - **Add** Todo Function Functionality
-  [] - `<App />`
-    [] - create function
-    [] - console.log
-    [] - setState
-      [] - spread operator
-      [] - task: itemName
-      [] - id: Date.now()
-      [] - completed: false
-    [] - add new add fxn to TodoListForm
+[x] - **Add** Todo Function Functionality
+  [x] - `<App />`
+    [x] - create function
+    [x] - console.log
+    [x] - setState
+      [x] - spread operator
+      [x] - task: itemName
+      [x] - id: Date.now()
+      [x] - completed: false
+    [x] - add new add fxn to TodoListForm
   [] - `<TodoList >`
     [] - none
   [] - `<Todo />` 
