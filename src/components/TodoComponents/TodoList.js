@@ -13,7 +13,7 @@ const TodoList = props => {
                     toggleCompleted={props.toggleCompleted}
                 />
             ))}
-            <button>
+            <button className="button" onClick={props.clearCompleted}>
                 Clear Purchased
             </button>
         </div>

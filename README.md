@@ -67,8 +67,8 @@
         [x] - .filter the todo's from the original state
         [x] - write expression returning everything not equal to completed using "!"
       [x] - add CC to todoList
-  [] - `<TodoList >`
-    [] - add clearCompleted with onClick to button 
+  [x] - `<TodoList >`
+    [x] - add clearCompleted with onClick to button 
   [] - `<Todo />`
     [] - none
 [] - Other
